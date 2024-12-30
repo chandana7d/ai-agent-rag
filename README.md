@@ -78,12 +78,12 @@ BRAVESEARCH_API_KEY = BRAVESEARCH_API_KEY
 ### Steps 
 1. Build Docker - this also index vetor db 
 ```bash
-docker build -t ai-agent .
+docker build -t ai-agent-rag .
 ``` 
 
 2. Run Docker 
 ```bash
-docker run -p 8000:8000 ai-agent
+docker run -p 8000:8000 ai-agent-rag
 ```
 4. Index db - run 
 
